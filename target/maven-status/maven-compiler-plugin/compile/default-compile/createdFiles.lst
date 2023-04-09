@@ -1,0 +1,4 @@
+com\hibernate\Entities\ProdutoPedido.class
+com\hibernate\Entities\Produto.class
+com\hibernate\Entities\Pedido.class
+com\hibernate\Main\Main.class

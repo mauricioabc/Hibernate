@@ -35,9 +35,9 @@ Para usar o Hibernate em um projeto Java, você precisará seguir alguns passos 
     <properties>
 		<!--  Propriedades JDBC SQL SERVER  -->
     <property name="javax.persistence.jdbc.driver" value="com.microsoft.sqlserver.jdbc.SQLServerDriver"/>
-    <property name="javax.persistence.jdbc.url" value="jdbc:sqlserver://localhost:1433;databaseName=Dados;encrypt=false"/>
-    <property name="javax.persistence.jdbc.user" value="sa"/>
-    <property name="javax.persistence.jdbc.password" value="P@ssw0rd!"/>
+    <property name="javax.persistence.jdbc.url" value="jdbc:sqlserver://localhost:1433;databaseName=nome_banco;encrypt=false"/>
+    <property name="javax.persistence.jdbc.user" value="user"/>
+    <property name="javax.persistence.jdbc.password" value="password"/>
 
 	<!-- Configurações específicas do Hibernate -->
     <property name="hibernate.dialect" value="org.hibernate.dialect.SQLServerDialect"/>
